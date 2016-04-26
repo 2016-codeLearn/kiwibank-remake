@@ -65,6 +65,46 @@ nav ul {
 	list-style: none;
 	padding-left: 0;
 }
+#hero {
+	background-color: #333333;
+	padding-top: 200px;
+	background-image: url(http:placehold.it/400x300);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	max-width: 1346px;
+	margin-left: 0 auto;
+}
+
+#hero > p {
+	background-color: #ffffff;
+	display: inline-block;
+	padding: 10px;
+	float: right;
+	clear: both
+}
+
+#hero div {
+	background-color: inherit;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+#hero a {
+	background-color: #fff;
+	padding: 10px;
+	color: #1b9dcf;
+	display: inline-block;
+	text-decoration: none;
+} 
+
+#hero button {
+	display: none;
+}
+
+
+
+
 
 
 
@@ -75,7 +115,6 @@ nav ul {
 	#mobile-banking {
 		display: none;
 	}
-
 
 
 
@@ -128,6 +167,25 @@ nav ul {
  		display: none;
  	}
 
+ 	#hero {
+ 		position: relative;
+ 		background-size: auto;
+ 		background-position: right;
+ 	}
+ 	#hero div {
+ 		position: absolute;
+ 		top: 0;
+ 		left: 0;
+ 		width: 300px;
+ 	}
+ 	#hero:after {
+ 		content: '';
+ 		display: block;
+ 		clear: both;
+ 	}
+ 	#hero > p {
+ 		margin-bottom: 0;
+ 	}
 }
 
 
@@ -141,3 +199,22 @@ nav ul {
 		padding: 0 18px;
 	}
 }
+
+
+
+@media all and (min-width: 1020px) {
+	#hero button {
+		display: block;
+		position: absolute;
+	}
+	#pev {
+		left: 0;
+	}
+	#next {
+		right: 0;
+	}
+
+}
+
+
+
