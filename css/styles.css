@@ -103,6 +103,79 @@ nav ul {
 }
 
 
+#products {
+	text-align: center;
+	padding: 10px;
+}
+
+#products h1 {
+	color: #77ba22;
+}
+
+#products a{
+	text-decoration: none;
+	color: #25a5ca;
+	display: inline-block;
+	padding: 5px;
+	background-color: #eeeeee;
+	margin: 2px;
+	border: 1px #fafafa;
+}
+
+#products .percentage + a {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.percentage {
+	width: 300px;
+	height: 200px;
+	border: 1px solid #333333;
+	margin: 20px 0;
+	box-shadow: 0 14px 0 -10px #dddddd;
+	text-align: left;
+}
+
+.percentage > span {
+	text-transform: uppercase;
+	background-color: #dfdfdf;
+	padding: 6px;
+	display: inline-block;
+}
+
+span.limited {
+	background-color: #ff9100;
+	color: #ffffff;
+}
+
+.percentage p {
+	font-size: 68px;
+	font-weight: bold;
+	margin: 10px 0;
+	padding-left: 10px;
+}
+
+.percentage p span {
+	font-size: 32px;
+	position: relative;
+}
+
+.percentage p span:first-child{
+
+	bottom: 24px;
+}
+
+.percentage p span:last-child {
+	right: 28px;
+}
+
+.percentage ul {
+	list-style: none;
+	color: #888666;
+	padding-left: 10px;
+}
 
 
 
@@ -114,6 +187,7 @@ nav ul {
 
 	#mobile-banking {
 		display: none;
+
 	}
 
 
